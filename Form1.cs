@@ -33,5 +33,11 @@ namespace CliServ {
       FrmSubprogsAlm fs = new FrmSubprogsAlm();
       fs.ShowDialog();
     }
-  }
+
+        private void transaccionesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FrmTransac fg = new FrmTransac();
+            fg.ShowDialog();
+        }
+    }
 }
